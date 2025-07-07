@@ -6,26 +6,33 @@
   <refbody>
     <section>
       <title>Syntax</title>
-      <dl>
-        <dlentry>
-          <dt>XDITA</dt>
-          <dd>
+      <!--<dl><dlentry><dt>XDITA</dt><dd><p><xmlelement>sup</xmlelement></p></dd></dlentry><dlentry><dt>HDITA</dt><dd><p><xmlelement>sup</xmlelement></p></dd></dlentry><dlentry><dt>MDITA (extended profile)</dt><dd><p conref="../common/common-examples.dita#common-examples/no-mdita-core"/></dd></dlentry></dl>-->
+      <simpletable relcolwidth="1* 3.0*" frame="all" keycol="1">
+        <sthead>
+          <stentry>Authoring format</stentry>
+          <stentry>Syntax and example</stentry>
+        </sthead>
+        <strow>
+          <stentry>XDITA</stentry>
+          <stentry>
             <p><xmlelement>sup</xmlelement></p>
-          </dd>
-        </dlentry>
-        <dlentry>
-          <dt>HDITA</dt>
-          <dd>
+            <codeblock>&lt;p>Franchised restaurants should be located in areas of at least 200 ft&lt;sup>2&lt;/sup>.&lt;/p></codeblock>
+          </stentry>
+        </strow>
+        <strow>
+          <stentry>HDITA</stentry>
+          <stentry>
             <p><xmlelement>sup</xmlelement></p>
-          </dd>
-        </dlentry>
-        <dlentry>
-          <dt>MDITA (extended profile)</dt>
-          <dd>
-            <p conref="../common/common-examples.dita#common-examples/no-mdita-core"/>
-          </dd>
-        </dlentry>
-      </dl>
+            <codeblock>&lt;p>Franchised restaurants should be located in areas of at least 200 ft&lt;sup>2&lt;/sup>.&lt;/p></codeblock>
+          </stentry>
+        </strow>
+        <strow>
+          <stentry>MDITA (core and extended profiles)</stentry>
+          <stentry>
+            <codeblock>Franchised restaurants should be located in areas of at least 200 ft&lt;sup>2&lt;/sup>.</codeblock>
+          </stentry>
+        </strow>
+      </simpletable>
     </section>
     <section conkeyref="reuse-sup/rendering-expectations"
       ><title/><p/></section>
@@ -43,6 +50,11 @@
       <p>The following example demonstrates the use of superscript in an HDITA topic.</p>
       <codeblock><coderef href="examples/lw-sup.html" format="hdita"/></codeblock>
     </fig>
+      <fig>
+        <title>MDITA example</title>
+        <p>The following example demonstrates the use of superscript in an MDITA topic.</p>
+        <codeblock><coderef format="mdita" href="examples/lw-sup.md"/></codeblock>
+      </fig>
     </example>
   </refbody>
 </reference>

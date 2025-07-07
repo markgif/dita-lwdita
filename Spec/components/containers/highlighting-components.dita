@@ -2,10 +2,10 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="highlighting-components" xml:lang="en-us">
 <title>Highlighting components</title>
-<shortdesc>The highlighting components are used to highlight text with styles (such as bold, and
-    italic). Never use these elements when a semantically specific element is available. These
-    elements are not intended for use by specializers, and are intended solely for use by authors
-    when no semantically appropriate element is available and a formatting effect is
-    required.</shortdesc>
+<shortdesc>The highlighting components are used to apply formatting styles to text, such as bold and
+        italic. Never use these elements when a semantically specific element is available. These
+        elements are not intended for use by specializers; they are intended solely for use by
+        authors when no semantically appropriate element is available and a formatting effect is
+        required.</shortdesc>
 
 </reference>
